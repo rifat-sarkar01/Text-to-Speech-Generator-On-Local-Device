@@ -9,10 +9,10 @@ from audio_player import AudioPlayer
 
 
 class TTSApp(ctk.CTk):
-    def __init__(self):
+    def __init__(self, version="1.0.0"):
         super().__init__()
 
-        self.title("LocalTTS")
+        self.title(f"LocalTTS v{version}")
         self.geometry("700x750")
         self.resizable(True, True)
 
