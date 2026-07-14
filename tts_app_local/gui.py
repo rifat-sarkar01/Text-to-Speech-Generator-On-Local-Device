@@ -32,7 +32,7 @@ class TTSApp(ctk.CTk):
         main_frame = ctk.CTkFrame(self)
         main_frame.pack(fill="both", expand=True, padx=10, pady=10)
 
-        ctk.CTkLabel(main_frame, text="Facebook MMS-TTS (Offline)", font=("Arial", 18, "bold")).pack(pady=(5, 10))
+        ctk.CTkLabel(main_frame, text="LocalTTS", font=("Arial", 18, "bold")).pack(pady=(5, 10))
 
         lang_frame = ctk.CTkFrame(main_frame, fg_color="transparent")
         lang_frame.pack(fill="x", padx=10, pady=5)
