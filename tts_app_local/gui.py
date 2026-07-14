@@ -12,7 +12,7 @@ class TTSApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Local Offline TTS - Facebook MMS-TTS")
+        self.title("LocalTTS")
         self.geometry("700x750")
         self.resizable(True, True)
 

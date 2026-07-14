@@ -4,3 +4,12 @@ __pycache__/
 venv/
 .env
 .venv/
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Large files
+*.zip
+LocalTTS.zip
