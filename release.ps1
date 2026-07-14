@@ -19,7 +19,7 @@ $ZipName = "LocalTTS-v$Version.zip"
 Write-Host "Building executable with PyInstaller..."
 # Navigate to tts_app_local as the spec file is there and expects to be run from there
 Push-Location tts_app_local
-pyinstaller build.spec
+pyinstaller -y build.spec
 if ($LASTEXITCODE -ne 0) {
     Write-Host "PyInstaller build failed." -ForegroundColor Red
     Pop-Location
